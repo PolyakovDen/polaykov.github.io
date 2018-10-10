@@ -1,0 +1,283 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+body{
+	color: #f7f3ea;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+
+header{
+	height: 620px;
+	width: 100%;
+	background-color: #87509c;
+}
+
+.container{
+	width: 1035px;
+	margin:0 auto;
+}
+
+.logo{
+	margin-top:55px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 68px;
+}
+
+.menu{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	float:left;
+	margin-right: 44px;
+	display: block;
+}
+
+.menu a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	color: #f7f3ea;
+}
+
+.header__titles h1{
+	margin-top: 135px;
+	text-align: center;
+	font-size: 42px;
+}
+
+.btn__header{
+	background: #eb7d4b;
+	width: 290px;
+	border-radius: 9px;
+	padding: 28px 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin:0 auto;
+	display: block;
+	font-weight: bold;
+	color: #f7f3ea;
+	margin-top: 60px;
+}
+
+#services{
+	height: 745px;
+	background-color: #17c2a4;
+}
+
+.main__title h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 115px;
+	text-align: center;
+}
+
+.border{
+	padding-top: 5px;
+	border-bottom: 4px solid rgba(20, 165, 140, .6);
+	width: 90px;
+	margin: 0 auto;
+	display: block;
+}
+
+.main__title p{
+	margin-top: 12px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.services__items{
+	margin-top: 80px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.services__item img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+.services__item h3{
+	padding-top: 40px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.services__item p{
+	padding-top: 20px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.6em;
+}
+
+
+.service__item{
+	margin: 0;
+	padding: 0;
+}
+
+#team{
+	height: 900px;
+	background-color: #e7f1f8;
+}
+
+.main__title-black h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 115px;
+	text-align: center;
+	color: #3c4761;
+}
+
+.main__title-black p{
+	color: #3c4761;
+	margin-top: 12px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.team__items{
+	margin-top: 80px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.team__item h3{
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: #27283d;
+	font-size: 24px;
+	text-align: center;
+}
+
+.team__item h4{
+	padding-top: 10px;
+	color: #30bae7;
+	font-size: 16px;
+	text-align: center;
+}
+
+.team__item p{
+	padding-top: 20px;
+	color: #3c4761;
+	font-size: 14px;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+#skills{
+	height: 650px;
+	background-color: #fff;
+}
+
+.skills__items{
+	margin-top: 80px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.skill__item h3{
+	text-transform: uppercase;
+	color: #3c4761;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+#portfolio{
+	height: 1420px;
+	background-color: #ffdd99;
+}
+
+.portfolio__categories-btn{
+	width: 380px;
+	padding-top: 32px;
+	margin: 0 auto;
+}
+
+.categories__button{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.categories__btn{
+	font-size: 18px;
+	width: 85px;
+	border-radius: 3px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 3px 0;
+	background-color: #ebc985;
+	color: #393939;
+}
+
+.works__items1{
+	margin-top: 100px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.works__items2{
+	margin-top: 50px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.work__item{
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #393939;
+}
+
+.work__item p{
+	padding-top: 20px;
+}
+
+.portfolio__button{
+	background: #eb7d4b;
+	width: 290px;
+	border-radius: 9px;
+	padding: 22px 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin:0 auto;
+	display: block;
+	color: #fff;
+	margin-top: 40px;
+}
+
